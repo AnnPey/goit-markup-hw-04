@@ -1,0 +1,388 @@
+:root {
+    --main-color:#FFFFFF ;
+    --pane-padding: 5px 42px;
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navyblue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --lightslate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navybluemodal: #2E2F42;
+    --grey: #2E2F42;
+    --dairy: #FCFCFC;
+  }
+
+.body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    color: #434455;
+}
+
+
+/* header*/
+
+
+.header {
+    justify-content: center;
+    flex-shrink: 0;
+    border-bottom: 1px solid #e7e9fc 
+}
+
+.div{
+    display: flex; 
+}
+
+.container {
+    width: 1158px; 
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+.nav {
+    display: flex; 
+    font-family: "Raleway", sans-serif;
+    flex-shrink: 0;
+    font-weight: 800 ;
+    font-size: 18px ;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:  #4d5ae5;
+    align-items: center;
+}
+
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+    display: inline-block;
+    margin-bottom: 16px; 
+    }
+
+.logo {
+    color: var(--iris, #4D5AE5);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    margin-right: 76px;
+}
+
+.logo-dark {
+    color: var(--navyblue, #2E2F42);
+}
+
+.logo-light {
+    color: var(--cloud, #F4F4FD);
+}
+
+.list {
+    list-style: none;
+    display: flex; 
+    color: var(--navyblue, #2E2F42);
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 150%; 
+    letter-spacing: 0.32px;
+    gap: 40px;
+}
+
+.ull {
+    color: #2e2f42;
+    font-weight: 500;
+    padding: 24px 0;
+}
+
+.ull:hover {
+    color: #404bbf
+}
+
+.ull:focus {
+    color: #404bbf;
+}
+
+address {}
+
+.contacts {
+    color:  #434455;
+}
+
+.contacts:hover {
+    color: #404bbf;
+}
+
+.contacts:focus {
+    color: #404bbf;
+}
+
+.address {
+    color: var(--navyblue, #2E2F42);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+
+img {
+    display: block;
+}
+
+
+/* main */
+
+
+.sec {
+    background: var(--navyblue, #2E2F42);
+    flex-shrink: 0;
+    text-align: center;
+    padding: 188px 0 ;
+}
+
+.h-one {
+    color: var(--white, #FFF);
+    font-family: 'Roboto';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
+    max-width: 496px; 
+}
+
+.button {
+    background: var(--iris, #4D5AE5);
+    font-family: "Roboto", sans-serif ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 150% */
+    letter-spacing: 0.64px;
+    color: var(--white, #FFF);
+    cursor: pointer;
+    display: block; 
+    min-width: 169px;
+    height: 56px;
+    border: none; 
+    border-radius: 4px; 
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
+}
+
+.sec-two{
+    padding: 120px 0;
+}
+
+.ulli-one {
+    gap: 24px; 
+    padding: 0;
+    margin: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.li-one {
+    width: calc((100% - 72px) / 4); 
+}
+
+.h-three {
+    color: var(--navyblue, #2E2F42);
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+    text-align: center; 
+}
+
+.p-one {
+    color: #434455;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.sec-three{
+    padding-bottom: 120px;
+}
+
+.h-two {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    line-height: 1.11;
+    margin-bottom: 72px;
+}
+
+.ulli-two {
+    gap: 24px;
+}
+
+.sec-four {
+    flex-shrink: 0;
+    background: var(--cloud, #F4F4FD);
+    padding: 120px 0;
+}
+
+.ulli-three {
+    gap: 24px;
+}
+
+.li-two {
+    padding-bottom: 0px;
+    justify-content: center;
+    background: var(--white, #FFF);
+    border-radius: 0px 0px 4px 4px; 
+    }
+
+.work {
+    padding: 32px 0;
+    }
+
+.p-two {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    text-align: center; 
+}
+
+
+/* footer */
+
+
+.footer {
+    flex-shrink: 0;
+    background: var(--navyblue, #2E2F42);
+    padding: 100px 0;
+}
+
+.par {
+    line-height: 1.5;
+    color:  #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.ul2 {
+    flex-shrink: 0;
+}
+
+
+/*portfolio*/
+
+.sec-p{
+    padding-top: 96px; 
+    padding-bottom: 120px;
+}
+
+.ulp {
+    text-align: center;
+    /* Button Text */
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+}
+
+.ullp-one{
+    justify-content: center; 
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.ullp-two{
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px; 
+    margin: 0;
+    padding: 0;
+}
+
+.iris1 {}
+
+
+.iris2 {}
+
+.iris3 {}
+
+.iris4 {}
+
+.iris5 {}
+
+.all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:  #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc ;
+    border-radius: 4px; 
+}
+
+.all:hover {
+    color: #FFFFFF;
+    background-color: #404BBF ;
+    border: 1px solid transparent;
+}
+
+.all:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.lipli{
+    width: calc((100% - 48px) / 3);
+}
+
+.divp{
+    padding: 32px 16px ;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+}
