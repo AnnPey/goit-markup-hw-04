@@ -292,6 +292,11 @@ img {
     padding-bottom: 120px;
 }
 
+.ul-clients{
+    display: flex;
+    gap: 24px;
+}
+
 
 /* footer */
 
