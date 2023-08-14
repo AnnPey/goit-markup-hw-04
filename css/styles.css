@@ -62,6 +62,7 @@
     color: currentColor;
     display: inline-block;
     margin-bottom: 16px; 
+    color: #404bbf;
     }
 
 .logo {
@@ -100,7 +101,7 @@
     font-weight: 500;
     padding: 24px 0;
     position: relative; 
-    color: #404bbf;
+    
 }
 
 .ull:hover {
