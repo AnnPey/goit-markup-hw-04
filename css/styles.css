@@ -387,7 +387,6 @@ svg{
 .social {
     width: 40px;
     height: 40px;
-    gap: 16px;
 }
 
 .a-soc {
@@ -499,6 +498,10 @@ svg{
     letter-spacing: 0.02em;
     color:  #FFFFFF;
     margin-bottom: 16px;    
+}
+
+.social-network-f {
+    gap: 16px;
 }
 
 .ul2 {
