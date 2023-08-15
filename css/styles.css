@@ -384,6 +384,7 @@ svg{
 .social {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .a-soc {
@@ -402,6 +403,10 @@ svg{
 
 .a-soc:focus {
     background-color: #404bbf;
+}
+
+.svg-soc {
+    fill:  #f4f4fd;
 }
 
 .p-two {
