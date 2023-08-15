@@ -339,6 +339,7 @@ svg{
 }
 
 .h-two {
+    margin-bottom: 72px;
     color: var(--navyblue, #2E2F42);
     text-align: center;
     font-family: 'Roboto';
@@ -349,7 +350,6 @@ svg{
     letter-spacing: 0.72px;
     text-transform: capitalize;
     line-height: 1.11em;
-    margin-bottom: 72px;
 }
 
 .ulli-two {
