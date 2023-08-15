@@ -434,8 +434,8 @@ svg{
 }
 
 .client {
-    width: calc((100% - 120px) / 6); 
     height: 88px;
+    width: calc((100% - 120px) / 6);
 }
 
 .a-cli {
