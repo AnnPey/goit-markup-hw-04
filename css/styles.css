@@ -295,7 +295,7 @@ img {
     width: calc((100% - 72px) / 4); 
 }
 
-.div-li-one{
+.div-li-all{
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -303,6 +303,12 @@ img {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+}
+
+svg{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
 }
 
 .h-three {
