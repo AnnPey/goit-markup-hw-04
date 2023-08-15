@@ -68,9 +68,16 @@
       <section class="sec">
         <div class="container">
           <h1 class="h-one">Effective Solutions for Your Business</h1>
-          <button class="button" type="button" data-modal-open="">
+          <button class="button" type="button" data-modal-open>
             Order Service
           </button>
+
+           <div class="modal is-hidden" data-modal>
+               <div class="modal-window">
+                    <button class="button-close" type="button" data-modal-close>X</button>     
+                </div>
+                <div class="overlay"></div>
+            </div>
         </div>
       </section>
 
@@ -81,6 +88,9 @@
           <ul class="ulli-one list">
             <li class="li-one">
               <div class="div-li-one">
+                <svg>
+                  <use href="./images/icons.svg"></use>
+                </svg>
                   <h3 class="h-three">Strategy</h3>
                   <p class="p-one">
                     Our goal is to identify the business problem to walk away with
@@ -229,5 +239,7 @@
         </p>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
+</body>
   </body>
 </html>
