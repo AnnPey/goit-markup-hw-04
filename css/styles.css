@@ -375,6 +375,12 @@ svg{
     padding: 32px 0;
     }
 
+.social-network {
+    display: flex; 
+    justify-content: center; 
+    gap: 24px; 
+}
+
 .p-two {
     color: #434455;
     font-family: Roboto;
