@@ -39,6 +39,7 @@
     width: 1158px; 
     padding: 0 15px;
     margin: 0 auto;
+    align-items: center;
 }
 
 
@@ -47,11 +48,9 @@
     display: flex; 
     font-family: "Raleway", sans-serif;
     flex-shrink: 0;
-    font-weight: 800 ;
     font-size: 18px ;
     line-height: 1.17em;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color:  #4d5ae5;
     align-items: center;
 }
@@ -60,8 +59,7 @@
 .link {
     text-decoration: none;
     color: currentColor;
-    display: inline-block;
-    margin-bottom: 16px; 
+    display: inline-block; 
     }
 
 .logo {
