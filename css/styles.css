@@ -502,6 +502,7 @@ svg{
 
 .social-network-f {
     gap: 16px;
+    display: flex; 
 }
 
 .ul2 {
