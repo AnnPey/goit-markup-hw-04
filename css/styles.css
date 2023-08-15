@@ -264,6 +264,7 @@ img {
     top: 24px;
     bottom: 536px;
     left: 360px;
+    border-color: rgba(0, 0, 0, 0.10);
 }
 
 .button-close:hover {
