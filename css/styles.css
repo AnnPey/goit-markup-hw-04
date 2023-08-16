@@ -471,10 +471,6 @@ svg{
     width: calc((100% - 120px) / 6);
 }
 
-.client-li-one{
-    width: calc((100% - 120px) / 6);
-}
-
 .a-cli {
     width: 100%;
     height: 100%;
