@@ -360,6 +360,7 @@ svg{
 }
 
 .h-two {
+    margin: 0;
     margin-bottom: 72px;
     color: var(--navyblue, #2E2F42);
     text-align: center;
@@ -370,7 +371,6 @@ svg{
     line-height: 1.11em; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    line-height: 1.11em;
 }
 
 .ulli-two {
