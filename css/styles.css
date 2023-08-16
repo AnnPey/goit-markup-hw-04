@@ -213,7 +213,7 @@ img {
     background-color: #404BBF;
 }
 
-.backdrop {
+.modal {
     position: fixed;
     top: 0;
     left: 0;
