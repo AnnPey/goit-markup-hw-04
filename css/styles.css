@@ -467,7 +467,11 @@ svg{
 }
 
 .client {
-    height: 88px;
+    height: 88px;    
+    width: calc((100% - 120px) / 6);
+}
+
+.client-li-one{
     width: calc((100% - 120px) / 6);
 }
 
