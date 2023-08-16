@@ -485,11 +485,21 @@ svg{
     margin-right: 120px;
 }
 .par {
+    margin: 0;
     line-height: 1.5em;
     color:  #F4F4FD;
     letter-spacing: 0.02em; 
     margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.par-f {
+    margin: 0;
+    margin-bottom: 16px;
     color:  #FFFFFF;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
     font-weight: 500;
 }
 
