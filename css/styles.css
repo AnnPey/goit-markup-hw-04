@@ -410,6 +410,10 @@ svg{
         transform: translateY(0%);
     }
 
+    .link:hover .paragraph {
+        transform: translateY(0%);
+    }
+
 .div-img {
     position: relative; 
     overflow: hidden;
