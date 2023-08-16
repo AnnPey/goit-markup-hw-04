@@ -287,8 +287,15 @@ img {
 }
 
 .svg-close {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+}
+
+.svg-close:hover {
+    fill: #ffffff;
+}
+
+.svg-close:focus {
+    fill: #ffffff;
 }
 
 .sec-two{
