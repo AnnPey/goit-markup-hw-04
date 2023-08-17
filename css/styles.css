@@ -58,7 +58,6 @@
 
 
 .link {
-    color: #404bbf; 
     text-decoration: none;
     color: currentColor;
     display: inline-block; 
@@ -99,6 +98,7 @@
 }
 
 .ull {  
+    color: #404bbf; 
     color: #2e2f42;
     font-weight: 500;
     padding: 24px 0;
