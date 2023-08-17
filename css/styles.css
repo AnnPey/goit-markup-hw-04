@@ -29,6 +29,9 @@
     flex-shrink: 0;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
 }
 
 .div{}
@@ -70,6 +73,7 @@
     text-transform: uppercase;
     line-height: 1.17;
     margin-right: 76px;
+    margin-bottom: 16px;
 }
 
 .logo-dark {
@@ -117,6 +121,7 @@
     height: 4px; 
     background-color: #404bbf; 
     border-radius: 2px;
+    width: 100%;
 }
 
 .contacts {
@@ -141,6 +146,13 @@
     line-height: 1.5em; /* 150% */
     letter-spacing: 0.32px;
     margin-left: auto;
+    display: flex;
+    width: 153px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+ 
 }
 
 
@@ -157,12 +169,13 @@ img {
     flex-shrink: 0;
     text-align: center;
     padding: 188px 0 ;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/team/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/team/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     max-width: 1440px; 
     height: 600px;
+    margin: 0 auto;
 }
 
 .h-one {
@@ -331,6 +344,18 @@ svg{
     flex-shrink: 0;
 }
 
+.h-three-p {
+    color: var(--navyblue, #2E2F42);
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2em; /* 120% */
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+    margin: 0;
+}
+
 .h-three {
     color: var(--navyblue, #2E2F42);
     font-family: 'Roboto';
@@ -350,8 +375,8 @@ svg{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.2em; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.2; /* 150% */
+    letter-spacing: 0.32em;
 }
 
 .sec-three{
@@ -369,6 +394,7 @@ svg{
     line-height: 1.11em; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    margin-bottom: 8px;
 }
 
 .ulli-two {
@@ -383,6 +409,7 @@ svg{
 
 .ulli-three {
     gap: 24px;
+    
 }
 
 .li-two {
@@ -390,7 +417,6 @@ svg{
     justify-content: center;
     background: var(--white, #FFF);
     border-radius: 0px 0px 4px 4px; 
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
 
     img {
@@ -455,6 +481,7 @@ h6 {
     display: flex; 
     justify-content: center; 
     gap: 24px; 
+    list-style: none;
 }
 
 .social {
@@ -604,6 +631,7 @@ h6 {
 .social-network-f {
     gap: 16px;
     display: flex; 
+    list-style: none;
 }
 
 .ul2 {
