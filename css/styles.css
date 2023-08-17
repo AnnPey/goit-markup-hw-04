@@ -97,13 +97,13 @@
     margin: 0;
 }
 
-.ull {  
-    color: #2e2f42;
+.ull {     
     font-weight: 500;
     padding: 24px 0;
     position: relative; 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
+    color: #2e2f42;
 }
 
 .ull:hover {
