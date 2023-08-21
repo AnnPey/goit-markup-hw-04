@@ -29,8 +29,6 @@
     flex-shrink: 0;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
-    width: 1440px;
-    height: 72px;
     flex-shrink: 0;
 }
 
@@ -96,6 +94,7 @@
 }
 
 .ull {     
+    display: block;
     font-weight: 500;
     padding: 24px 0;
     position: relative; 
@@ -370,8 +369,8 @@ svg{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.2; /* 150% */
-    letter-spacing: 0.32em;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
 }
 
 .sec-three{
@@ -389,6 +388,7 @@ svg{
     line-height: 1.11em; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .ulli-two {
@@ -410,8 +410,7 @@ svg{
     padding-bottom: 0px;
     justify-content: center;
     background: var(--white, #FFF);
-    border-radius: 0px 0px 4px 4px; 
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
     }
 
     img {
@@ -589,7 +588,6 @@ h6 {
     line-height: 1.5em;
     color:  #F4F4FD;
     letter-spacing: 0.02em; 
-    margin-bottom: 16px;
     font-weight: 500;
     max-width: 264px;
 }
